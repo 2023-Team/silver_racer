@@ -9,23 +9,30 @@ Gradle - Groovy
 
 ## Language
 
-JavaKotlinGroovy
+Java
 
 ## Spring Boot
 
-3.1.2
+3.1.3
 
 ## Project Metadata
 
-Group : com.example  
-Artifact : demo  
+Group : com.knucse
+Artifact : SilverRacer  
 Name : demo  
-Description : Demo project for Spring Boot  
-Package name : com.example.demo  
+Description : web project for Spring Boot  
+Package name : com.knucse.SilverRacer  
 Packaging : Jar  
-Java : 8
+Java : 17
 
-뱅뱅뱅 - 내가 처음이다~
-선하 브랜치 왜이래
-왜이러긴
+## Dependencies
+
+Spring Boot Dev Tools
+Lombok
+Spring Web
+Thymeleaf
+Spring Data JPA
+MariaDB Driver
+Spring Security
+
 >>>>>>> a88e850b98925b187ffe5006db0beb4d32d16c3d
