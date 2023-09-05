@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SilverRacer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SilverRacer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SilverRacer.iml" filepath="$PROJECT_DIR$/.idea/SilverRacer.iml" />
     </modules>
   </component>
 </project>

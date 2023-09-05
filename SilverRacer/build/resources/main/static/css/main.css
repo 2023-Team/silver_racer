@@ -11,11 +11,16 @@ a {
 a:visited {
   color: black;
 }
-body {
-  margin-left: 100px;
-  margin-right: 100px;
-  margin: 0px;
+@font-face {
+  font-family: 'NotoSansl';
+  src: url('../font/NotoSansKR-Regular.ttf') format('truetype');
 }
+body {
+  /*margin-left: 100px;
+  margin-right: 100px;*/
+  font-family: 'NotoSansl';
+}
+
 .main {
   background-color: #c7e8f3;
   width: auto;
@@ -24,19 +29,13 @@ body {
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
-.bottom {
-  text-align: start;
-  margin-right: 400px;
-  /* padding: 10px; */
-}
-
-#algopa {
-  font-weight: bold;
-}
 
 .banner {
   display: flex;
-  width: calc(100% / 2);
+  width: 100%;
+  height: 400px;
+  background-color: #C7E8F3;
+
 }
 #login {
   font-size: 35px;
@@ -47,7 +46,34 @@ body {
 
 #topbar_li {
   list-style: none;
-  font
 }
 
+.box-container {
+  width: auto;
+  display: flex;
+  height: 350px;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.box {
+  border-radius: 20px;
+  border: 1px solid rgba(173, 173, 173, 0.23);
+  background: rgba(236, 236, 236, 0.31);
+  width: 450px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-shrink: 0;
+  padding-left: 15px;
+
+  display: block;
+  justify-content: space-around;
+
+  color: #000;
+  font-size: 28px;
+  text-align: left;
+  vertical-align : top;
+}
 
